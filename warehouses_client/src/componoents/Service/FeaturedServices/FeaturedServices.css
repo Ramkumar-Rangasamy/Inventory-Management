@@ -1,0 +1,32 @@
+.service-item .icon .services_icon {
+    color: #001f8d;
+    font-size: 48px;
+    transition: 0.3s;
+}  
+.service-item .title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #132848;
+    transition: 0.3s;
+}
+.service-item .description {
+    font-size: 15px;
+    color: #132848;
+    margin-bottom: 10px;   
+}  
+.service-item .readmore {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #132848;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 14px;
+}   
+.service-item:hover .title,
+.service-item:hover .readmore,
+.service-item:hover .icon .services_icon {
+   color:blue;
+}
+

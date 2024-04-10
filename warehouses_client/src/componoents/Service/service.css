@@ -1,0 +1,61 @@
+.breadcrumbs-service .page-header {
+  padding: 140px 0 80px 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./Assets/Service-header.jpg");
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-service .page-header:before {
+  content: "";
+  background-color: rgba(14, 29, 52, 0.7);
+  position: absolute;
+  inset: 0;
+}
+
+.breadcrumbs-service .page-header h2 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.breadcrumbs-service .page-header p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs-service nav {
+  background-color: #f3f6fc;
+  padding: 20px 0;
+}
+
+.breadcrumbs-service nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.breadcrumbs-service nav ol a {
+  color: blue;
+  transition: 0.3s;
+}
+
+.breadcrumbs-service nav ol a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs-service nav ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs-service nav ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #4278cc;
+  content: "/";
+}

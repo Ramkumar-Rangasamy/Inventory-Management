@@ -1,0 +1,43 @@
+.work_img{
+    background-image: url('./Assets/hero_bg_4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work_img_one{
+    background-color: rgba(0, 0, 0, 0.632);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+     
+}
+.work_image {
+    border:5px solid  #132848;
+    border-radius:2%;
+}
+.work_headtwo{
+     border:5px solid orange;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     padding: 10px;
+}
+.card-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.number{ 
+    background-color: rgb(241,104,33);
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.car_bodys{
+    
+    text-align: center;
+    padding: 5px;
+}
+
+

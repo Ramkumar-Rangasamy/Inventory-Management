@@ -1,0 +1,57 @@
+
+  .update {
+    font-family: Arial, sans-serif;
+    background-image: url('./asset/update.png');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+ .update form {
+    background-color:black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .update form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .update form label input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .update button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .update button:hover {
+    background-color: #45a049;
+  }
+
+  .htwoupdata{
+    background-color: rgb(12, 12, 23);
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+    padding:10px;
+    
+  }
+
+
+  

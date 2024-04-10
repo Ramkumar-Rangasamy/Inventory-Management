@@ -1,0 +1,76 @@
+
+.Auth-form-container{
+  background-image: url('./asset/login-2.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+ 
+ 
+}
+
+.Auth-form-pro{
+  box-shadow: rgb(0 0 0 / 20%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color:rgb(14, 29, 52); 
+}
+
+.Auth-form-contentAuth-form-pro {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title-pro{
+  text-align: center;
+  font-size: 24px;
+  color:black;
+  font-weight: 800;
+}
+
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+  /* Hide the default checkbox */
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    /* Style the custom checkbox */
+    input[type="checkbox"] + label {
+      position: relative;
+      padding-left: 30px; /* Adjust as needed */
+      cursor: pointer;
+      line-height: 20px;
+      display: inline-block;
+    }
+
+    input[type="checkbox"] + label::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px; /* Adjust as needed */
+      height: 20px; /* Adjust as needed */
+      border: 2px solid #000; /* Border color */
+      background-color: white; /* Unchecked background color */
+      border-radius:4px;
+    }
+
+    /* Style the checked state */
+    input[type="checkbox"]:checked + label::before {
+      background-color:rgb(15, 28, 222); /* Checked background color */
+      border-color: rgb(212, 212, 224); /* Checked border color */
+    }
+.htwo{
+  color: rgb(34, 34, 34);
+  font-size: 30px;
+  font-weight: 800;
+  padding:10px;
+  
+}
+
+  

@@ -1,0 +1,41 @@
+.landing_img {
+  background-image: url("./Assets/hero-bg.png");
+  background-color: rgb(14, 29, 52);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  padding-top: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.card_edit {
+  align-content: center;
+  align-self: center;
+  color: white;
+}
+.icon-status {
+  font-size: 25px;
+}
+button {
+  margin: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .landing_img {
+    text-align: center;
+    padding: 0px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .landing_img {
+    text-align: center;
+    padding: 0px;
+    padding-top: 0px;
+  }
+}
